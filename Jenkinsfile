@@ -1,9 +1,6 @@
 pipeline {
     agent any
     
-    tools {
-        maven 'local_maven'
-    }
     parameters {
          string(name: 'staging_server', defaultValue: 'https://16aa-103-140-176-31.ngrok-free.app', description: 'Remote Staging Server')
     }
