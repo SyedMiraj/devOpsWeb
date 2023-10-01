@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     parameters {
-         string(name: 'staging_server', defaultValue: 'https://16aa-103-140-176-31.ngrok-free.app', description: 'Remote Staging Server')
+         string(name: 'staging_server', defaultValue: 'https://102b-103-140-176-58.ngrok-free.app', description: 'Remote Staging Server')
     }
 
 stages{
